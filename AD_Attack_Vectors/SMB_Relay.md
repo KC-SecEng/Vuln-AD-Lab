@@ -131,7 +131,7 @@ We can connect to this shell using `nc 127.0.0.1 11000`. We can use `help` to se
 ![SMB_shellAccess](../Images/Attacks_SMBRelay_shellAccess.PNG)
 
 ## Mitigating SMB Relay Attacks
-1. Enforce SMB signing on all devices to prevent NLTM authentication messages from being intercepted
+**1. Enforce SMB signing on all devices to prevent NLTM authentication messages from being intercepted**
 
 This can be accomplished with a **Group Policy**:
 Using **gpedit.msc** we can find the exact option nested under *Computer Configuration > Windows Settings > Security Settings > Local Policies > Security Options*.
@@ -144,10 +144,10 @@ For the client, enable:
 * Microsoft network client: Digitally sign communications (always)
 * Microsoft network client: Digitally sign communications (if server agrees)
 
-2. Disable NTLM authentication wherever possible
+**2. Disable NTLM authentication wherever possible**
     * This mitigation technique has one disadvantage - if more secure protocols (such as Kerberos) stop working, Windows will default back to NTLM authentiation.
 
-3. Remove SMB 1.0 from all Windows Servers and clients that don't require it. *SMB 1.0 should no longer be installed by default for Windows 11.*
+**3. Remove SMB 1.0 from all Windows Servers and clients that don't require it.** *SMB 1.0 should no longer be installed by default for Windows 11.*
 
 ### Sources
 * https://tcm-sec.com/smb-relay-attacks-and-how-to-prevent-them/ 
