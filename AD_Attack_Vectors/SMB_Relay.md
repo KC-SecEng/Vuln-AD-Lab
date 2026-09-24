@@ -145,7 +145,7 @@ For the client, enable:
 * Microsoft network client: Digitally sign communications (if server agrees)
 
 **2. Disable NTLM authentication wherever possible**
-    * This mitigation technique has one disadvantage - if more secure protocols (such as Kerberos) stop working, Windows will default back to NTLM authentiation.
+* This mitigation technique has one disadvantage - if more secure protocols (such as Kerberos) stop working, Windows will default back to NTLM authentiation.
 
 **3. Remove SMB 1.0 from all Windows Servers and clients that don't require it.** *SMB 1.0 should no longer be installed by default for Windows 11.*
 
