@@ -40,6 +40,7 @@ If successful, the output should be:
 ``` 
 
 Enumerating my domain using *ldapdomaindump*:
+
 ![DomainEnum_domainDump](../Images/Attacks_DomainEnum_domainDump.PNG)
 
 ### Examining the Output
