@@ -6,7 +6,7 @@ Here you'll find a full walkthrough of building the lab from scratch, as well as
 
 This project was created while following TCM Security's **Practical Ethical Hacking** course. You can find the full course [here](https://tcm-sec.com/academy/practical-ethical-hacking/).
 
-## Step 1: Building the Lab
+## Step 1: Build the Lab
 Instructions for building this AD lab can be found in the [AD Lab Build](https://github.com/KC-SecEng/Vuln-AD-Lab/blob/main/AD_Lab_Build.md) file.
 
 The full build includes 4 VMs:
