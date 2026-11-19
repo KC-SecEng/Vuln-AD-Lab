@@ -34,7 +34,7 @@ Once the domain is compromised, we will then enumerate it using tools including:
 * PingCastle
 
 After domain enumeration, we can continue attacking the compromised domain via these attacks:
-* Pass Attack
+* Pass Attacks
 * Kerberoasting
 * Token Impersonation
 * LNK File Attacks
